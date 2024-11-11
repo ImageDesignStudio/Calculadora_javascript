@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #050505;
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    max-width: 320px;
+    margin: 0px auto;
+    text-align: center;
+}
+.container img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color: beige;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+h2{
+    color: #d8eeef;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.calculator {
+    max-width: 320px;
+    padding: 10px;
+    border: 1px solid #484747;
+    border-radius: 5px;
+    background: #222424;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.display {
+    width: 300px;
+    height: 80px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid #222424;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #000;
+    color: beige;
+    margin-bottom: 10px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button {
+    background: #000 !important;
+    color: beige;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    outline: none;
+    border: 0px none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: red !important;
+    color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
