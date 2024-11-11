@@ -22,4 +22,4 @@ Este proyecto es una calculadora simple desarrollada en JavaScript, HTML y CSS. 
    ```bash
    git clone https://github.com/tu_usuario/calculadora-js.git
 
-[Captura de Pantalla de la Calculadora](imagenes/calculadora.webp)
+[Captura de Pantalla de la Calculadora](imagenes/calculadora.png)
