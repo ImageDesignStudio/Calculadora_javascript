@@ -1,5 +1,3 @@
-# 06_Calculadora_javascript
-
 # Calculadora en JavaScript
 
 Este proyecto es una calculadora simple desarrollada en JavaScript, HTML y CSS. La calculadora permite realizar operaciones matemáticas básicas y cuenta con una interfaz de usuario interactiva y fácil de usar.
